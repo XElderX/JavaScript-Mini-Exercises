@@ -83,8 +83,11 @@ vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Susk
 ciklų prasisuko */
 
 /* let n
+let i=0
 do{
     n=Math.floor(Math.random()*(10-1+1)+1);
-    console.log(n)
+    i++;
+    console.log("tai jau: ",i,"ciklas. Sugeneruotas skaicius: ",n)
+    
 } while((n!==5)&&(n!==7));
  */
