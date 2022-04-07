@@ -36,7 +36,8 @@ vienoje eilutėje). */
 10 (vienas skaičius vienoje eilutėje). */
 
 
-/* for(i=0; i<=10; i++){
+/*
+for(i=0; i<5; i++){
 function rand(min, max) {
     
     return Math.floor(Math.random()*(max-min+1)+min);
