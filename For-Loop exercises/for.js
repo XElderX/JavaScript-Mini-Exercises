@@ -34,11 +34,8 @@ vienoje eilutėje). */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 5. Naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 
 10 (vienas skaičius vienoje eilutėje). */
-/* 
-   
-   
-   
-} */
+
+
 /* for(i=0; i<=10; i++){
 function rand(min, max) {
     
@@ -47,8 +44,10 @@ function rand(min, max) {
 
     console.log(rand(0,10))
 } */
-/* 
-function rand(min, max) {
+
+
+/* ~~~~~~~~~~~~~~~~~ */
+/* function rand(min, max) {
 Return Math.floor(Math.random()*(max-min+1)+min);
 } */
 
