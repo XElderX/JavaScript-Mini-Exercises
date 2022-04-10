@@ -153,9 +153,16 @@ console.log(compare(tekstas1, tekstas2)) */
 
 /* function checkAletter(text) {
     if(typeof text==='string'){
-        for(i=0;i<text.length;i++){
-
+        for(i=0,count=0;i<text.length;i++){
+            if(text[i]==="a"|| text[i]==="A"){
+                count++
+            }
         }
+        return count
     }
+    return count
+}
 
-} */
+let tekstas = "Ea sit labores prodesset conceptam"
+
+console.log(checkAletter(tekstas)) */
