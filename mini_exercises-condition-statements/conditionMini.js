@@ -7,11 +7,14 @@ Skaičius geras. */
 if(n<0) {
     console.log("Blogas");
 }
+else if(n==0){
+    console.log("Skaicius neutralus")
+}
     else {
         console.log("Geras");
 
-    }
- */
+    } */
+
 /*  ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* 2. Mokinys eina gatve ir prieina sankryžą reguliuojamą šviesoforu. Sudarykite programą, 
@@ -60,10 +63,13 @@ vienetu, o mažesnį padidintu vienetu.
 /* let a=7;
 let b=6;
 
-if(a>b) {
+if(a>b) {git status
     a-=1
     b+=1
     console.log("a skaicius= ", +a  +"; b skaicius = ", +b)
+}
+else if(a==b){
+    console.log("skaiciai yra lygus")
 }
 else {
     a+=1
