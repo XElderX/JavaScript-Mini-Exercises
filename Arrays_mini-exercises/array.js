@@ -76,34 +76,19 @@ console.log(`P raidziu - ${countP}`) */
 // 6. Sugeneruoti masyvą, kurio ilgis 20, o reikšmės masyve turi būti nuo 10 iki 50. Reikšmės masyve 
 // turi būti unikalios, tai yra – nesikartoti.
 
-let array=[];
+/* let rand=(min, max)=>{
+    
+    
+    return random=Math.floor(Math.random()*(max-min+1)+min);
+}
+let random = null
+let array = [];
 let randomLength = 20;
-let i = 0;
-let z = 0;
-do{ 
-    
-    
-    let rand =(Math.floor(Math.random()*(50-10+1)+1));
-    console.log(rand);
-    z++
-    for(o=0;o<array.length;o++){
-        
-        
-        if (array[o]===rand) {
-            console.log(array[o])
-            break;
-           
-        }
-        else{
-            array.push(rand)
-            
-            break;
-        }
-        }
-    
-        i++
-
-  
-} while (i<randomLength);
+while (array.length<randomLength){
+        if(array.indexOf(rand(10,50))=== -1){
+            array.push(random)
+    }
+}
 console.log(array)
-console.log(z)
+
+ */
